@@ -29,11 +29,3 @@ subprojects {
 tasks.register("clean", Delete) {
     delete rootProject.buildDir
 }
-defaultConfig {
-    applicationId "com.example.mosdetector"
-    minSdkVersion 21    // 👈 Change this line to 24
-    targetSdkVersion 33
-    versionCode flutterVersionCode.toInteger()
-    versionName flutterVersionName
-}
-
